@@ -21,17 +21,17 @@ body {
 }
 .display-1 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 2.88rem;
+  font-size: 2.24rem;
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
-  font-size: 2.8rem;
+  font-size: 3.6rem;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 4.48rem;
+  font-size: 5.76rem;
 }
 .display-4 {
   font-family: 'Rubik', sans-serif;
@@ -42,10 +42,10 @@ body {
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 1.92rem;
+  font-size: 1.6rem;
 }
 .display-7 {
   font-family: 'Rubik', sans-serif;
@@ -61,14 +61,14 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 1.44rem;
-    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.12rem;
+    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 2.24rem;
-    font-size: calc( 1.63rem + (2.8 - 1.63) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.63rem + (2.8 - 1.63) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.88rem;
+    font-size: calc( 1.91rem + (3.6 - 1.91) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.91rem + (3.6 - 1.91) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.96rem;
@@ -76,9 +76,9 @@ body {
     line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
