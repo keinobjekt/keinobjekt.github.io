@@ -36,7 +36,8 @@
     "versionFirst": "4.8.2",
     "siteFonts": [],
     "uniqCompNum": 2,
-    "versionPublish": "4.8.2"
+    "versionPublish": "4.8.2",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
